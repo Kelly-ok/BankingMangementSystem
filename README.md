@@ -1,37 +1,48 @@
 # Banking Management System
+
 Project in python with use of Tkinter GUI toolkit
 
 ## Packages required
+
 1. Tkinter - Tkinter is the standard GUI library for Python.
 2. OS - The OS module in Python provides functions for interacting with the operating system.
 3. datetime - Datetime module supplies classes to work with date and time.
 
 ## Installation
+
 ###### Tkinter
+
 ```
  We just need to install Python from www.python.org, and it comes along with Python.
 We do not need to install it separately.
 ```
+
 ###### Datetime
+
 ```
 Datetime module comes build into Python, so there is no need to install it externally.
 ```
+
 ###### OS
+
 ```
  We just need to install Python from www.python.org, and it comes along with Python.
 We do not need to install it separately.
 ```
 
 ## Usage
+
 ```
 import os
 from datetime import date
-import tkinter as tk 
+import tkinter as tk
 from tkinter import *
 ```
 
 ## Execution flow (How to run the program?)
+
 ###### Option 1
+
 ```
 1. First extract the zip file.
 2. Navigate to the file mainProject.py
@@ -39,7 +50,9 @@ from tkinter import *
 4. Run the code.
 5. Now you are ready to interact with our python-based GUI program.
 ```
+
 ###### Option 2
+
 ```
 1. First extract the zip file.
 2. Navigate to the path containing extracted folder.
@@ -52,7 +65,9 @@ from tkinter import *
 ```
 
 ## Features of program
+
 This is a GUI-based program. Once started running, it will prompt users to ask whose role they want to play. According to the selection, the program will ask for credentials. Once the credentials are matched, the program will unlock the respective functions
+
 ```
 1) Employee
 >> Admin Id and password
@@ -66,21 +81,21 @@ functionalities. If they don’t match or entered admin ID doesn't exist then ap
                     - Nationality
                     - Account number
                     - PIN
-                    - KYC document submitted e.g. Passport, Driving license, 
+                    - KYC document submitted e.g. Passport, Driving license,
                     - DOB
                     - Mobile number
                     - Initial account balance
                     Above mentioned details are typed into the form.
-                    - Mobile number should be of 10 digits 
+                    - Mobile number should be of 10 digits
                     - Valid date
                     - Unique account number
                     - Valid initial balance
                     - Valid date of birth
-                    - Any one of the account type should be selected 
+                    - Any one of the account type should be selected
                     - Any one of the genders should be selected
-                    - PIN should be numeric and 4 digits 
+                    - PIN should be numeric and 4 digits
                     - PIN and re-PIN should match
-                      If and only if the entered data passes through all these criteria then data is accepted and account is created successfully. Else appropriate error prompts are displayed to the user. 
+                      If and only if the entered data passes through all these criteria then data is accepted and account is created successfully. Else appropriate error prompts are displayed to the user.
                  2. Close bank account
                     - Delete the account whose account number is specified in the input area. Here it is checked whether the entered account number exists or not. If it doesn't then an error prompt is thrown.
                  3. Create admin account
@@ -95,7 +110,7 @@ functionalities. If they don’t match or entered admin ID doesn't exist then ap
                     - Here account number is scanned from the user and all the data related to that account number is displayed on the screen. Here it is checked whether the entered account number exists or not. If it doesn't then an password. If successfully and password error prompt is thrown.
                  6. Exit
                     - Takes back to admin login screen
-2) Customer            
+2) Customer
 >> Customer account number and PIN should be entered
 > If account no. and PIN matches then customer will unlock his/her
 functionalities. If they don’t match or entered account number doesn't exist then appropriate error prompts are displayed.
@@ -122,12 +137,3 @@ functionalities. If they don’t match or entered account number doesn't exist t
                  6. Exit
                     - Takes back to customer login screen
 ```
-
-## Input and Output of program
-We are giving a link below that redirects to the YouTube page playing our video which demonstrates the input and output of the program.
-Execution video Link: [Youtube video](https://www.youtube.com/watch?v=ZyakexnOaKA)
-
-## Contributors
-1. 19BCE237 - Sakshi Sanghavi
-2. 19BCE238 - Harshil Sanghvi
-3. 19BCE245 - Aayush Shah
